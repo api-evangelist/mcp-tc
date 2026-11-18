@@ -1,4 +1,4 @@
-# mcp-tc
+# MCP
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,127 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-mcp-tc is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://mcp.tc/
+MCP is a directory of Model Context Protocol (MCP) servers, providing a searchable list of AI tool integrations such as Claude, ChatGPT, Cursor, and VS Code extensions. It lists over 1,500 servers, each with detailed pages describing capabilities, setup commands, and sign‑in requirements. The service is run by Marco Costantino in Italy and does not host, audit, or vouch for the listed servers. Users can submit servers without an account, and the platform offers Markdown outputs for machine consumption, a CLI, and a blog for updates.
+
+**Areas:** Directory · AI · Tools · OpenSource · Community
+
+## MCP on APIs.io
+
+Everything profiled for MCP is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mcp-tc/](https://apis.io/providers/mcp-tc/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [MCP Directory API](https://apis.io/apis/mcp-tc/mcp-tc-directory-api/) — mcp.tc's own formats: search index, listing JSON and Markdown, change feeds.
+- [MCP Registry API](https://apis.io/apis/mcp-tc/mcp-tc-registry-api/) — MCP-Registry-compatible read API (official openapi v0.1).
+- [MCP Submit API](https://apis.io/apis/mcp-tc/mcp-tc-submit-api/) — Suggest a server for the directory from a script, then follow its status.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [MCP Agentic Access](https://apis.io/agentic-access/mcp-tc/mcp-tc-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [IndexEntry](https://apis.io/schemas/mcp-tc/mcp-tc-index-entry/)
+- [ListingJson](https://apis.io/schemas/mcp-tc/mcp-tc-listing-json/)
+- [SubmissionStatus](https://apis.io/schemas/mcp-tc/mcp-tc-submission-status/)
+- [SubmitAccepted](https://apis.io/schemas/mcp-tc/mcp-tc-submit-accepted/)
+- [SubmitDuplicate](https://apis.io/schemas/mcp-tc/mcp-tc-submit-duplicate/)
+- [SubmitRequest](https://apis.io/schemas/mcp-tc/mcp-tc-submit-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Mcp Tc Context](https://apis.io/jsonld/mcp-tc/mcp-tc-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [MCP API Rules](https://apis.io/rules/mcp-tc/mcp-tc-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [MCP Authentication](https://apis.io/security/mcp-tc/mcp-tc-authentication/)
+- [MCP Domain Security](https://apis.io/security/mcp-tc/mcp-tc-domain-security/)
+- [MCP Vulnerability Disclosure](https://apis.io/security/mcp-tc/mcp-tc-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://mcp.tc/)
+- [Documentation](https://mcp.tc/docs)
+- [Getting started](https://mcp.tc/i/ezoic-setup-assistant)
+- [API reference](https://mcp.tc/docs/api)
+- [Blog](https://mcp.tc/blog)
+- [Security](https://mcp.tc/c/security)
+- [Terms of service](https://mcp.tc/terms)
+- [Privacy policy](https://mcp.tc/privacy)
+- [GitHub](https://github.com/mcptc)
+
+## API Evangelist rating
+
+**Kin Score 54.5** — strong · rubric 0.28.0 · scored 2026-11-18
+
+| Facet | Score |
+|---|---|
+| Discoverability | 75.0 |
+| Contract quality | 59.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 35.7 |
+| Developer ergonomics | 63.6 |
+| Access clarity | 17.0 |
+
+**Agent readiness 44.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/mcp-tc/](https://apis.io/providers/mcp-tc/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for MCP: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mcp-tc/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
